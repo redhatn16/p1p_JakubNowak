@@ -10,11 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">{process.env.REACT_APP_HERO_NAME ?? ""} </span>
             from <span className="purple"> {process.env.REACT_APP_HERO_FROM ?? ""}.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            {process.env.REACT_APP_HERO_MEMO ?? ""}
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -27,7 +24,7 @@ function AboutCard() {
               <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
             </li>
           </ul>
 
