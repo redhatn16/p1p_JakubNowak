@@ -407,7 +407,7 @@ button:focus {
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
-.footer-copywright {
+.footer-copyright {
   text-align: center !important;
 }
 
@@ -417,7 +417,7 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
+  .footer-copyright {
     text-align: center !important;
   }
 
