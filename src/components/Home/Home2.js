@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillMail, AiFillSkype } from "react-icons/ai";
 
 function Home2() {
   return (
@@ -62,9 +62,31 @@ function Home2() {
                   href="https://github.com/redhatn16"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://join.skype.com/invite/p1Do4ImEmtP0"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillSkype />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="mailto:redhat1116@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillMail />
                 </a>
               </li>
             </ul>
